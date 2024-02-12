@@ -1,0 +1,8 @@
+<!-- random-numbers.component.html -->
+<div>
+    <button (click)="generateRandomNumbers()">Generate Random Numbers between 1 and 10000</button>
+    <div class="number-grid">
+      <div *ngFor="let number of randomNumberList" class="number">{{ number }}</div>
+    </div>
+  </div>
+  

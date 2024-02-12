@@ -1,0 +1,33 @@
+/* random-numbers.component.css */
+.number-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust minmax value as needed */
+    gap: 10px; /* Adjust gap between numbers as needed */
+  }
+  
+  .number {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  /* random-numbers.component.css */
+
+/* Style for the button */
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #45a049;
+}
+
+
+  
